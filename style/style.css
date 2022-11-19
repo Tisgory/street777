@@ -1,0 +1,383 @@
+@import url(fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'rr';
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}
+
+
+.container{
+        max-width: 1140px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;}
+body{
+background-color: black;
+}
+ 
+
+/* header start */
+.header{
+    background-color: black;
+    color: white;
+}
+.header__pre-nav{
+    font-size: 16px;
+line-height: 19px;
+font-family: 'robotor';
+display: flex;
+justify-content: space-between;
+padding: 18px 0;
+}
+.pre-nav-left{
+    display: flex;
+
+}
+.pre-nav-left p{
+    margin-left: 5px;
+}
+.right-links{
+    color: white;
+    margin-left: 20px;
+}
+
+.nav{
+   
+    border: 1px solid rgba(125, 115, 115, 0.5);;
+  
+}
+
+.logo{
+    font-size: 36px;
+line-height: 30px;
+font-family: 'robotob';
+padding: 8px 14px ;
+background-color: rgba(10, 148, 24, 0.75);;
+border: 4px solid #06600F;
+border-radius: 4px;
+
+
+}
+.navigation{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+.nav__left-links{
+padding: 22px 14px;
+transition: 500ms;
+font-size: 18px;
+line-height: 21px;
+font-weight: normal;
+display: inline-block;
+font-weight: normal;
+}
+.nav__left-links:hover{
+    background: rgba(105, 207, 23, 0.75);;
+}
+.header{
+    height: 824px;
+    display: flex;
+    flex-direction: column;
+}
+.header__content{
+    flex-grow: 1 ;
+    background:url(../imgs/food-burger-wallpaper-preview\ 1.jpg)no-repeat center /cover;
+}
+.content-info-title{
+    font-family: 'rbold';
+font-size: 72px;
+line-height: 85px;
+color: #69CF17;
+max-width: 730px;
+width: 100%;
+}
+.after-title{
+ font-weight: 400;   
+ font-size: 36px;
+line-height: 17px;
+color: #69CF17;
+margin: 18px 0;
+}
+.content-info-text{
+    font-size: 18px;
+line-height: 24px;
+max-width: 1110px;
+width: 100%;
+}
+.header__content-info{
+    margin-top: 167px;
+}
+.header__content-links{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cost{
+    font-weight: 100;
+font-size: 50px;
+line-height: 25px;
+padding: 32px 76px;
+background-color:  rgba(105, 207, 23, 0.5);
+
+}
+.view{
+    font-size: 18px;
+line-height: 21px;
+padding: 15px 71px;
+background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+text-align: center;
+}
+
+/* header end  */
+/* *********************************** */
+
+
+/* main start  */
+.menu{
+    padding: 20px 0;
+    background-color:  #292929;;
+   
+}
+.menu-items{
+    font-size: 18px;
+line-height: 24px;
+margin-right: 36px;
+padding-bottom: 20px; }
+
+.menu-items:hover{
+    border-bottom: 1px solid ;
+}
+
+.menu__block{
+    margin-left: 21px;
+}
+
+
+.burgerspace{
+    padding: 15px;
+    background-color: #393636;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item__content{
+    width: 22%;
+    padding: 15px;
+    border: solid 2px white;
+    background-color: black;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.img-box{
+    position: relative;
+    width: 100%;
+   
+}
+.item__content img{
+    width: 100%;
+}
+
+.item__content h3{
+    font-size: 19px;
+line-height: 15px;
+padding: 15px 0;
+}
+.icon-box{
+    font-size:  60px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 600ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-box:hover{`
+    opacity: 1;
+    background-color:  rgba(105, 207, 23, 0.9);;
+
+}
+
+
+.pre-map{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+}
+.pre-map h2{
+    font-size: 50px;
+line-height: 40px;
+color: #69CF17;
+text-align: center;
+}
+/* main end  */
+/* ***************** */
+
+/* footer start  */
+
+.down-slot{
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 0 96px 0;}
+    
+
+.phone {font-size: 20px;
+    line-height: 23px;
+    font-family: 'robotor';
+
+}
+.footer{
+    background: linear-gradient(180deg, #000000 0%, rgba(105, 207, 23, 0.5) 100%);
+}
+.footer__links-box{
+    text-align: center;
+}
+.footer-link2{
+    padding: 0px 20px 0 20px;
+}
+/* footer end */
+/* *********************** */
+
+/* page */
+.page-title{
+    text-align: center;
+    width: 100%;
+    padding: 167px 0 167px 0;
+    margin: 30px 0 30px 0;
+    background: url(../imgs/photo_cropped\ 1.jpg)no-repeat center /cover;
+    color: rgba(105, 207, 23, 0.7);
+    font-size: 55px;
+line-height: 65px;
+}
+
+.page-text{
+    font-size: 18px;
+line-height: 25px;
+text-align: justify;
+}
+
+/* adaptation }*/
+@media(max-width: 1200px){
+    .header__pre-nav{
+        flex-direction:column-reverse;
+        align-items: center;
+    }
+    .pre-nav-left {
+        margin-top: 10px;
+    }
+    .navigation{
+        display: flex;
+        flex-direction:column-reverse;
+       
+    }
+    
+    .header__content-info{
+        display:flex;
+        flex-direction:column;
+       align-items:center
+    }
+    .header__content-links{
+        flex-direction: column
+    }
+    .burgerspace{
+        display: flex;
+        flex-wrap:wrap; 
+        justify-content: space-evenly;
+    }
+    .item__content{
+       width: 35%
+
+    }
+    .map{
+        display: none;
+    }
+    .down-slot{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 12px
+  
+    }
+   .menu{
+       display: flex;
+       justify-content: center
+   }
+   
+}
+@media(max-width:950px) {
+    
+.content-info-text{
+       max-width: 600px
+   }
+   .item__content{
+    width: 45%
+
+ }
+ .cost{
+     font-weight: 50;
+     font-size: 25px;
+     padding: 16px 38px;
+ }
+.view{
+    font-size: 15px;
+    line-height: 13px;
+    padding: 7px 35px;
+
+}
+.menu__block{ 
+    padding-top:20px;
+}
+   .content-info-title{
+       font-size: 40px;
+       text-align: center;
+   }
+
+
+}
+@media( max-width: 550px){
+   .navigation{
+       
+   }
+  
+.pre-nav-left{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.navigation{
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin: 0 auto;
+}
+.nav__left{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    margin-top: 200px;
+}
+
+}
+@media( max-width: 400px){
+    .header__pre-nav{
+        max-width: 320px;
+    }
+    .pre-nav-left{
+        margin-top: -15px;
+    }
+.main{
+    margin-top: 380px;
+}
+}
